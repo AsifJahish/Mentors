@@ -1,0 +1,85 @@
+.mentor-section {
+  text-align: center;
+  background-color: #ffffff; /* Light blue background */
+  margin-top: 0;
+}
+.container_mane{
+
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all content */
+
+}
+
+.title_m {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  margin-bottom: 160px;
+}
+
+.description_m {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 10px auto 30px;
+  position: absolute;
+  margin-top: 80px;
+}
+
+/* .mentor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 600px;
+} */
+
+.mentor-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, auto); /* Creates two rows */
+  gap: 20px;
+  justify-items: center;
+  margin-top: 160px;
+
+}
+
+.mentor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px; /* Adjust size */
+  text-align: center;
+
+
+}
+
+.mentor_pic {
+  width: 100px; /* Adjust size to match */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+
+}
+
+.mentor-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.mentor-role {
+  font-size: 14px;
+  color: #777;
+}

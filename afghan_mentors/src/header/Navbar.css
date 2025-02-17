@@ -1,0 +1,163 @@
+/* Navbar container (header box) */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ddd;
+    z-index: 1000;
+  }
+  
+  /* Flexbox to align all navbar content */
+  .navbar-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066FF;
+    text-decoration: none;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 8px 12px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+    z-index: 9999;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Contact Button */
+  .contact-button {
+    background-color: #0066FF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-button:hover {
+    background-color: #0052cc;
+  }
+  
+  /* Toggle Button (for mobile view) */
+  .toggle-container {
+    display: none;
+    position: relative;
+  }
+  
+  .toggle-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toggle-item {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .toggle-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+  
+    .toggle-container {
+        display: block;
+    }
+  }
+  
+  /* Ensure content doesn't overlap navbar */
+  .main-content {
+    margin-top: 100px;
+    padding: 20px;
+    position: relative;
+  }
+  
