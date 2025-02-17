@@ -7,7 +7,7 @@ import pedram from "../assets/pedram.JPG";
 import murtaza from "../assets/murtaza.JPG";
 
 import Mohammad from "../assets/mohammad.JPG";
-import abas from "../assets/abas.jpg";
+import abas from "../assets/basir.jpg";
 import basir from "../assets/abas.jpg";
 
 

@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link to="" className="nav-item">Blog</Link>
         </nav>
 
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ1BGXK7gzE5Uvgzkfbsod-OXQgca59HuiS6HfoGWEhhl3lQ/viewform?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSemi_RPN5-x2UNpTGgwQdhPMdXAVts7lykMRywwgwCtAiosCg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
   <button className="contact-button">Apply</button>
 </a>
 
