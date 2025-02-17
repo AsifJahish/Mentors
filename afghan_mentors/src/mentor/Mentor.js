@@ -2,7 +2,6 @@ import React from "react";
 import "./Mentor.css";
 import yusuf from "../assets/yusuf.JPG";
 
-import aliImage from "../assets/yusuf.JPG";
 import aziz from "../assets/aziz.JPG";
 import pedram from "../assets/pedram.JPG";
 import murtaza from "../assets/murtaza.JPG";
