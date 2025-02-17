@@ -44,9 +44,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="footer-heading">Contact Information</h3>
           <ul className="footer-list">
-            <li>123 Afghan Mentors Ave, Suite 456, Student City, AQ 12345</li>
-            <li>📞 +1 (888) 123-4567</li>
-            <li>✉️ info@afghanmentors.com</li>
+
+            <li>📞 +7 747 466 5909</li>
+            <li>✉️ yusuf.masood2001@gmail.com</li>
           </ul>
         </div>
       </div>

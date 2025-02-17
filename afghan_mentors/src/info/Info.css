@@ -34,6 +34,7 @@
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+    padding-left: 50px;
   }
   
   /* Paragraph Styling */
@@ -46,7 +47,8 @@
   /* List Styling */
   .footer-list {
     list-style: none;
-    padding: 0;
+    padding: 40px;
+  
   }
   
   /* Style Footer Links */
